@@ -15,7 +15,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     paddingTop: Platform.OS === "android" ? 50 : 60,
-    backgroundColor: "#8B8B8B",
     flex: 1,
   },
 });

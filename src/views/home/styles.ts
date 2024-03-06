@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const Styles = StyleSheet.create({
 
@@ -10,9 +10,19 @@ const Styles = StyleSheet.create({
     justifyContent: "space-around",
     backgroundColor: "white"
   },
+  scroll: {
+    flex: 1
+    
+  },
+  img: {
+    flex: 1, 
+    resizeMode: "contain",
+    width: "100%",
+  },
   header: {
     height: 100,
-    alignItems:"center"
+    alignItems:"center",
+    backgroundColor:"#00A547"
   },
   content: {
     display: "flex",
